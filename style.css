@@ -1,0 +1,54 @@
+.tailleG{
+    height: 10rem;  
+}
+.tailleP{
+    height: 15rem;
+}
+.tailleTp{
+    height: 7.5rem; 
+}
+.bleu{
+    background-color: lightblue;
+}
+.vert{
+    background-color: yellowgreen;
+}
+.violet{
+    background-color: orchid;
+}
+
+
+/* premier tableau */
+header:first-of-type{
+    background-color: tomato;
+}
+footer:first-of-type{
+    background-color: gold;
+    margin-bottom: 5rem;
+}
+section:first-of-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* deuxieme tableau */
+header:last-of-type, footer:last-of-type{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+header:last-of-type nav{
+    background-color: crimson;
+}
+section:nth-of-type(2){
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+section:nth-of-type(2) article{
+    background-color: pink;
+}
+section:nth-of-type(2) aside div:first-of-type{
+    background-color: plum;
+}
+section:nth-of-type(2) aside div:last-of-type{
+    background-color: teal;
+}
